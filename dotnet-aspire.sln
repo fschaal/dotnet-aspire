@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web_api_backend", "web_api_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazor_frontend", "blazor_frontend\blazor_frontend.csproj", "{61A99790-DEFF-41E4-9403-E928902D3D1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspire-core.AppHost", "aspire-core\aspire-core.AppHost\aspire-core.AppHost.csproj", "{70DE95A5-F0EA-4265-A76E-FA978488A468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspire-core.ServiceDefaults", "aspire-core\aspire-core.ServiceDefaults\aspire-core.ServiceDefaults.csproj", "{18F98723-089E-45E7-A9C5-9DB5B22A6B78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{61A99790-DEFF-41E4-9403-E928902D3D1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61A99790-DEFF-41E4-9403-E928902D3D1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61A99790-DEFF-41E4-9403-E928902D3D1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DE95A5-F0EA-4265-A76E-FA978488A468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DE95A5-F0EA-4265-A76E-FA978488A468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DE95A5-F0EA-4265-A76E-FA978488A468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DE95A5-F0EA-4265-A76E-FA978488A468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F98723-089E-45E7-A9C5-9DB5B22A6B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F98723-089E-45E7-A9C5-9DB5B22A6B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F98723-089E-45E7-A9C5-9DB5B22A6B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F98723-089E-45E7-A9C5-9DB5B22A6B78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
