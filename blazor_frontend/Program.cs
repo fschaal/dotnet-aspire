@@ -2,6 +2,7 @@ using blazor_frontend;
 using blazor_frontend.Components;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.AddServiceDefaults();
 
 // Add services to the container.
 builder.Services.AddRazorComponents()

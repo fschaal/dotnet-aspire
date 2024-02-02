@@ -23,3 +23,22 @@ add project reference to aspire AppHost by right clicking on the project and sel
 var api = builder.AddProject<Projects.web_api_backend>("webapi");
 builder.AddProject<Projects.blazor_frontend>("frontend").WithReference(api);
 ```
+
+## Configure service defaults in frontend
+```csharp
+builder.AddServiceDefaults();
+```
+
+## Change appsettings to AppHost url
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "BackendUrl": "http://webapi",
+  "AllowedHosts": "*"
+}
+```
